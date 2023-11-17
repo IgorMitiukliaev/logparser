@@ -1,4 +1,4 @@
-OR
+ORACLE
 #1, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
 #2, type RSDSHORT, value: 32767                                                              RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
 #3, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023

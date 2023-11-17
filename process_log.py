@@ -45,7 +45,7 @@ def find_req_trace(data):
     pos_beg = 0
     pos_end = 0
     for line in data:
-        print('\n{0}\n{1}\n{2}'.format(check_p, check_r, line))
+        # print('\n{0}\n{1}\n{2}'.format(check_p, check_r, line))
         match = re.search(pattern, line)
         if match and (not check_p) and (not check_r):
             _beg, i, t, v, _sp, _end = match.groups()
@@ -105,6 +105,7 @@ def read_params_trace(data):
             pattern = r'^(.*?)#(\d+).+?type (\S+), value: (.+?)(\s{2,})(.+)?$'
             match = re.search(pattern, line)
             if match:
+                print(match.groups())
                 _beg, i, t, v, _sp, _end = match.groups()
                 pos_beg = len(_beg)
                 pos_end = len(line) - len(_end)
