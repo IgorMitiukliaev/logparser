@@ -1,0 +1,68 @@
+OR
+#1, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#2, type RSDSHORT, value: 32767                                                              RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#3, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#4, type RSDSHORT, value: 32767                                                              RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#5, type RSDLONG, value: -2147483648                                                         RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#6, type RSDLONG, value: 2147483647                                                          RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#7, type RSDLONG, value: 34                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#8, type RSDCHAR, value: 48                                                                  RsdCmdSp.cpp (line 1633)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#9, type RSDLONG, value: 16                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#10, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#11, type RSDLONG, value: 0                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
+#12, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#13, type RSDLONG, value: 292                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#14, type RSDLONG, value: 16                                                                 RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#15, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#16, type RSDLONG, value: 16                                                                 RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#17, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#18, type RSDLONG, value: 100                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#19, type RSDLONG, value: 291                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#20, type RSDLONG, value: 3                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#21, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#22, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#23, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#24, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#25, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#26, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#27, type RSDCHAR, value: 82                                                                 RsdCmdSp.cpp (line 1633)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#28, type RSDLPSTR, value: Љ                                                                 RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#29, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
+#30, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
+#31, type RSDLONG, value: 4                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
+#32, type RSDDATE, value: 1.1.1991                                                           RsdCmdSp.cpp (line 1714)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
+#33, type RSDDATE, value: 8.12.2020                                                          RsdCmdSp.cpp (line 1714)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
+SELECT /*+FIRST_ROWS LEADING(t pmpaym pmrmprop debet credit oproper oprcurst) INDEX(t dmem   RSDCommandO.cpp (line 610)       SQL\Execute                          1        RSDODBC               08:35:27.401 17-11-2023
+order_dbt_idx1) INDEX(pmpaym dpmpaym_dbt_idx0) USE_NL(t pmpaym pmrmprop debet credit oprop
+er oprcurst)*/ t.t_orderid, t.t_dockind, t.t_kind_operation, t.t_oper, t.t_status, t.t_use
+rfield1, t.t_userfield2, t.t_userfield3, t.t_userfield4, t.t_origin, t.t_maketid, t.t_cont
+rnversion, t.t_reserve,pmpaym.t_PayerAccount,pmpaym.t_ReceiverAccount,pmpaym.t_Amount,pmpa
+ym.t_PayAmount,pmpaym.t_FIID,pmpaym.t_PayFIID,pmpaym.t_BaseAmount,pmpaym.t_NumberPack,pmpa
+ym.t_PaymentID,pmpaym.t_ValueDate,pmpaym.t_CloseDate,pmpaym.t_DocKind,pmpaym.t_PaymStatus,
+pmrmprop.t_ClientDate,pmrmprop.t_PayerChargeOffDate,pmrmprop.t_Number,pmrmprop.t_Instancy,
+debet.t_BankCode,credit.t_BankCode,credit.t_Group,credit.t_TransferDate,oproper.t_ID_Opera
+tion,pmpaym.t_ToBackOffice,pmrmprop.t_ShifrOper,PM_SCRHLP.GetDepartmentName(pmpaym.t_Depar
+tment),PM_SCRHLP.GetDepartmentName(pmpaym.t_StartDepartment),PM_SCRHLP.GetDepartmentName(p
+mpaym.t_EndDepartment),PM_SCRHLP.GetNodeName(pmpaym.t_OperNode),PM_SCRHLP.GetInstancyCode(
+pmrmprop.t_Instancy),PM_SCRHLP.GetBankPaymOriginName(t.t_Origin),PM_SCRHLP.GetBankPaymStat
+usName(t.t_Status),PM_SCRHLP.GetOprStatusDOName(oprcurst.t_NumValue) FROM dmemorder_dbt t,
+ dpmprop_dbt credit, dpmprop_dbt debet, doprcurst_dbt oprcurst, doproper_dbt oproper, dcor
+schem_dbt pmcor, ddp_dep_dbt pmcor_cdep, dpmpaym_dbt pmpaym, ddp_dep_dbt pmpaym_dp_dep, dd
+p_dep_dbt pmpaym_edep, ddp_dep_dbt pmpaym_sdep, dpmrmprop_dbt pmrmprop, doprcurst_dbt reje
+ct WHERE  (t.t_dockind BETWEEN ? AND ?  AND t.t_status BETWEEN ? AND ?  AND t.t_orderid BE
+TWEEN ? AND ? ) AND  (oproper.t_DocumentID=LPAD(t.t_OrderID, ?, ?) AND oproper.t_DocKind I
+N (?, ?) AND pmpaym.t_PaymentID=t.t_OrderID AND debet.t_PaymentID(+)=pmpaym.t_PaymentID AN
+D debet.t_debetcredit(+)=? AND credit.t_PaymentID(+)=pmpaym.t_PaymentID AND credit.t_debet
+credit(+)=? AND pmrmprop.t_PaymentID=pmpaym.t_PaymentID AND oprcurst.t_ID_Operation(+)=opr
+oper.t_ID_Operation AND oprcurst.t_StatusKindId(+)=? AND t.t_DocKind IN (?, ?) AND pmpaym.
+t_DocKind IN (?, ?) AND pmpaym.t_PaymStatus=? AND reject.t_ID_Operation=oproper.t_ID_Opera
+tion AND reject.t_StatusKindID=? AND reject.t_NumValue=? AND ((pmpaym.t_Department=pmpaym_
+dp_dep.t_Code(+) AND pmpaym.t_StartDepartment=pmpaym_sdep.t_Code(+) AND pmpaym.t_EndDepart
+ment=pmpaym_edep.t_Code(+) AND pmpaym.t_Department=pmpaym_dp_dep.t_Code(+) AND pmpaym.t_De
+partment=pmpaym_dp_dep.t_Code(+) AND pmcor.t_Department=pmcor_cdep.t_Code(+) AND credit.t_
+Corschem=pmcor.t_Number(+) AND credit.t_PayFIID=pmcor.t_FIID(+) AND pmcor.t_FI_Kind(+)=?) 
+AND ((((((((((((pmpaym_dp_dep.t_Name=? OR pmpaym_sdep.t_Name=? OR pmpaym_edep.t_Name=?))) 
+OR (pmpaym_dp_dep.t_Name=?))) OR (pmpaym_dp_dep.t_Name=?))) OR (EXISTS(select 1 from doprs
+tep_dbt pmost where oproper.t_ID_Operation=pmost.t_ID_Operation AND pmost.t_IsExecute=? AN
+D (pmost.t_Symbol=?))))) OR ((pmpaym.t_Oper=? OR pmcor_cdep.t_Name=?))))))) AND  (t.t_Stat
+us=? AND pmpaym.t_CloseDate BETWEEN ? AND ?) ORDER BY t.t_dockind, t.t_status, t.t_orderid
