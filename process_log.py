@@ -50,6 +50,11 @@ def find_req_trace(data):
         if match and (not check_p) and (not check_r):
             _beg, i, t, v, _sp, _end = match.groups()
             pos_beg = len(_beg)
+            #
+            #   CHOOSE FROM PREDEFINED SHIFT VALUES
+            #   OR ADJUST IT YOURSELF:
+            #
+            #
             pos_end = len(line) - len(_end) - shift[0]
             # print('------------>\n{0}\t{1}\n{2}\t{3}\n'.format(pos_beg, _beg, pos_end, _end))
             check_p = True
