@@ -37,6 +37,7 @@ def find_req(type, data):
 
 
 def find_req_trace(data):
+    shift = (4, 8)
     pattern = r'^(.*?)#(\d+).+?type (\S+), value: (.+?)(\s{2,})(.+)?$'
     req = ''
     check_r = False
@@ -49,7 +50,7 @@ def find_req_trace(data):
         if match and (not check_p) and (not check_r):
             _beg, i, t, v, _sp, _end = match.groups()
             pos_beg = len(_beg)
-            pos_end = len(line) - len(_end) - 1
+            pos_end = len(line) - len(_end) - shift[0]
             # print('------------>\n{0}\t{1}\n{2}\t{3}\n'.format(pos_beg, _beg, pos_end, _end))
             check_p = True
         elif not match:
@@ -59,7 +60,7 @@ def find_req_trace(data):
             if line.find('Result=') >= 0:
                 return req
             if check_r and not check_p:
-                req += line[pos_beg:pos_end-7]
+                req += line[pos_beg:pos_end]
     print(req)
     return req + ';'
 
