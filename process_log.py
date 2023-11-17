@@ -59,7 +59,7 @@ def find_req_trace(data):
             if line.find('Result=') >= 0:
                 return req
             if check_r and not check_p:
-                req += line[pos_beg:pos_end].strip()
+                req += line[pos_beg:pos_end-7]
     print(req)
     return req + ';'
 
@@ -202,7 +202,7 @@ def make_tr(params, isPG=True):
                     p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
                 case 'RSDDATE':
                     p_tr.insert(
-                        int(el[0]), 'glob_func.to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
+                        int(el[0]), 'to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
                 case _:
                     raise Exception('unknown type {0}'.format(el[1]))
     else:
