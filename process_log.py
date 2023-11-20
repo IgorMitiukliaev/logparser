@@ -110,7 +110,7 @@ def read_params_trace(data):
                 pos_beg = len(_beg)
                 pos_end = len(line) - len(_end)
                 params.append((int(i), t, v))
-        elif t.find('RSDLPSTR') == 0:
+        elif t.find('RSDLPSTR') == 0 and not line.find("SQL\Execute") >= 0:
             params.pop()
             v = v + line[pos_beg:pos_end].strip()
             params.append((int(i), t, v))
@@ -322,6 +322,7 @@ def process_log(res):
 def process_trace(res, isPG=True):
     params = read_params_trace(res)
     req_trace = find_req_trace(res)
+    print(params)
     req_bound = bind_trace(req_trace, params, isPG)
     save_file("req_TRACE_PARAMS", (req_bound,))
 
@@ -331,7 +332,7 @@ def main():
     try:
         if res[0].startswith('['):
             process_log(res)
-        elif res[0].startswith('OR'):
+        elif res[0].startswith('ORACLE'):
             process_trace(res, False)
         else:
             process_trace(res, True)
