@@ -45,7 +45,6 @@ def find_req_trace(data):
     pos_beg = 0
     pos_end = 0
     for line in data:
-        # print('\n{0}\n{1}\n{2}'.format(check_p, check_r, line))
         match = re.search(pattern, line)
         if match and (not check_p) and (not check_r):
             _beg, i, t, v, _sp, _end = match.groups()
@@ -56,7 +55,6 @@ def find_req_trace(data):
             #
             #
             pos_end = len(line) - len(_end) - shift[0]
-            # print('------------>\n{0}\t{1}\n{2}\t{3}\n'.format(pos_beg, _beg, pos_end, _end))
             check_p = True
         elif not match:
             if check_p and not check_r:
@@ -67,7 +65,7 @@ def find_req_trace(data):
             if check_r and not check_p:
                 req += line[pos_beg:pos_end]
     print(req)
-    return req + ';'
+    return req + ';\n'
 
 
 def read_binds(data):
@@ -100,6 +98,7 @@ def read_params_trace(data):
     v = ''
     pos_beg = 0
     pos_end = 0
+    marks = ('SQL\Execute',)
     for line in data:
         if 'Parameter' in line:
             pattern = r'^(.*?)#(\d+).+?type (\S+), value: (.+?)(\s{2,})(.+)?$'
@@ -110,11 +109,12 @@ def read_params_trace(data):
                 pos_beg = len(_beg)
                 pos_end = len(line) - len(_end)
                 params.append((int(i), t, v))
-        elif t.find('RSDLPSTR') == 0 and not line.find("SQL\Execute") >= 0:
+        elif t.find('RSDLPSTR') == 0:
+            if any(m in line for m in marks):
+                break
             params.pop()
             v = v + line[pos_beg:pos_end].strip()
             params.append((int(i), t, v))
-
     return params
 
 
@@ -320,11 +320,17 @@ def process_log(res):
 
 
 def process_trace(res, isPG=True):
-    params = read_params_trace(res)
-    req_trace = find_req_trace(res)
-    print(params)
-    req_bound = bind_trace(req_trace, params, isPG)
-    save_file("req_TRACE_PARAMS", (req_bound,))
+    pattern=re.compile('#[\S\s]*?Result=[\s\S]*?$', flags=re.M)
+    req = []
+    # print(res)
+    for match in pattern.finditer(''.join(res)):
+        req_p = match.group(0).split('\n')
+        params = read_params_trace(req_p)
+        print(params)
+        req_trace = find_req_trace(req_p)
+        req_bound = bind_trace(req_trace, params, isPG)
+        req.append(req_bound)
+    save_file("req_TRACE_PARAMS", '\n'.join(req))
 
 
 def main():
