@@ -37,24 +37,27 @@ def find_req(type, data):
 
 
 def find_req_trace(data):
-    shift = (4, 8)
-    pattern = r'^(.*?)#(\d+).+?type (\S+), value: (.+?)(\s{2,})(.+)?$'
+    shift = (3, 7)
+    pattern = re.compile('^([\s\S]*?)#(\d+).+?type (\S+), value: (.+?)(\s{2,})(.+)?$', flags=re.M)
     req = ''
     check_r = False
     check_p = False
     pos_beg = 0
     pos_end = 0
     for line in data:
+        # print('--------------------------\n{0}\n{1}\n{2}\n------------------------------'.format(check_p, check_r, line))
         match = re.search(pattern, line)
         if match and (not check_p) and (not check_r):
-            _beg, i, t, v, _sp, _end = match.groups()
-            pos_beg = len(_beg)
+            mg = match.groups()
+            pos_beg = len(mg[0])
             #
             #   CHOOSE FROM PREDEFINED SHIFT VALUES
             #   OR ADJUST IT YOURSELF:
             #
             #
-            pos_end = len(line) - len(_end) - shift[0]
+            pos_end = len(line) - len(mg[-1]) - shift[0]
+            # print('------------>',line,  [len(m) for m in mg], mg, len(mg[-1]), pos_beg)
+            # print('------------>\nline = {line}\npos_beg = {0}\t{1}\npos_end = {2}\t{3}\n----------------'.format(pos_beg, _beg, pos_end, _end, line=line))
             check_p = True
         elif not match:
             if check_p and not check_r:
@@ -64,7 +67,7 @@ def find_req_trace(data):
                 return req
             if check_r and not check_p:
                 req += line[pos_beg:pos_end]
-    print(req)
+    print('----> \t ', req)
     return req + ';\n'
 
 
@@ -202,7 +205,7 @@ def make_tr(params, isPG=True):
                         p_tr.insert(int(el[0]), '{0}'.format(el[2]))
                 case 'RSDTIMESTAMP':
                     p_tr.insert(
-                        int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'DD.MM.YYYY HH:MM:SS\')'.format(el[2]))
+                        int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'DD.MM.YYYY HH24:MI:SS\')'.format(el[2]))
                 case 'RSDSHORT':
                     p_tr.insert(int(el[0]), '{0}'.format(el[2]))
                 case 'RSDLPSTR':
@@ -210,6 +213,10 @@ def make_tr(params, isPG=True):
                 case 'RSDDATE':
                     p_tr.insert(
                         int(el[0]), 'to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
+                case 'RSDTIME':
+                    p_tr.insert(
+                        int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'HH24:MI:SS\')'.format(el[2]))
+                    
                 case _:
                     raise Exception('unknown type {0}'.format(el[1]))
     else:
@@ -232,6 +239,9 @@ def make_tr(params, isPG=True):
                 case 'RSDDATE':
                     p_tr.insert(
                         int(el[0]), 'to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
+                case 'RSDTIME':
+                    p_tr.insert(
+                        int(el[0]), 'to_timestamp(\'{0}\',\'HH:MM:SS\')'.format(el[2]))
                 case _:
                     raise Exception('unknown type {0}'.format(el[1]))
     return p_tr
@@ -259,14 +269,13 @@ def bind_pg(req, params, bind_map):
 def bind_trace(req, params, isPG=True):
     pattern = r'\?'
     p_tr = make_tr(params, isPG)
-    print(p_tr)
+    # print(p_tr)
     new_req = ''
     start = 0
     index = 0
     for match in re.finditer(pattern, req):
         end, newstart = match.span()
         new_req += req[start:end]
-        # index = bind_map[int(match.group(1))][0]
         par = p_tr[index]
         index += 1
         new_req += par
@@ -320,14 +329,15 @@ def process_log(res):
 
 
 def process_trace(res, isPG=True):
-    pattern=re.compile('#[\S\s]*?Result=[\s\S]*?$', flags=re.M)
+    pattern=re.compile('^[\S\s]*?Result=[\s\S]*?$', flags=re.M)
     req = []
     # print(res)
     for match in pattern.finditer(''.join(res)):
         req_p = match.group(0).split('\n')
         params = read_params_trace(req_p)
-        print(params)
+        # print(params)
         req_trace = find_req_trace(req_p)
+        print('Trace request ---> \t', req_trace, '\n\n-----------------------------------')
         req_bound = bind_trace(req_trace, params, isPG)
         req.append(req_bound)
     save_file("req_TRACE_PARAMS", '\n'.join(req))
