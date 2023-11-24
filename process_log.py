@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 import re
+import codecs
 
 
 def read_file(path):
     try:
-        with open(path, 'r') as logobj:
+        with codecs.open( path, "r", "cp866", errors='ignore') as logobj:
             lines = logobj.readlines()
             return lines
     except EnvironmentError as err:
@@ -20,7 +21,7 @@ def save_req(type, data):
 def save_file(filename, data):
     try:
         filename += ".sql"
-        with open(filename, 'w') as f:
+        with codecs.open(filename, 'w',"cp866") as f:
             for line in data:
                 f.write(line)
     except EnvironmentError as err:
@@ -45,7 +46,6 @@ def find_req_trace(data):
     pos_beg = 0
     pos_end = 0
     for line in data:
-        # print('--------------------------\n{0}\n{1}\n{2}\n------------------------------'.format(check_p, check_r, line))
         match = re.search(pattern, line)
         if match and (not check_p) and (not check_r):
             mg = match.groups()
@@ -55,20 +55,18 @@ def find_req_trace(data):
             #   OR ADJUST IT YOURSELF:
             #
             #
-            pos_end = len(line) - len(mg[-1]) - shift[0]
-            # print('------------>',line,  [len(m) for m in mg], mg, len(mg[-1]), pos_beg)
-            # print('------------>\nline = {line}\npos_beg = {0}\t{1}\npos_end = {2}\t{3}\n----------------'.format(pos_beg, _beg, pos_end, _end, line=line))
+            pos_end = len(line) - len(mg[-1]) - shift[1]
             check_p = True
         elif not match:
             if check_p and not check_r:
                 check_r = True
                 check_p = False
             if line.find('Result=') >= 0:
-                return req
+                return req[:-1:] + ';'
             if check_r and not check_p:
                 req += line[pos_beg:pos_end]
     print('----> \t ', req)
-    return req + ';\n'
+    return req[:-1:] + ';'
 
 
 def read_binds(data):
@@ -269,7 +267,6 @@ def bind_pg(req, params, bind_map):
 def bind_trace(req, params, isPG=True):
     pattern = r'\?'
     p_tr = make_tr(params, isPG)
-    # print(p_tr)
     new_req = ''
     start = 0
     index = 0
@@ -331,15 +328,20 @@ def process_log(res):
 def process_trace(res, isPG=True):
     pattern=re.compile('^[\S\s]*?Result=[\s\S]*?$', flags=re.M)
     req = []
-    # print(res)
     for match in pattern.finditer(''.join(res)):
-        req_p = match.group(0).split('\n')
-        params = read_params_trace(req_p)
-        # print(params)
-        req_trace = find_req_trace(req_p)
-        print('Trace request ---> \t', req_trace, '\n\n-----------------------------------')
-        req_bound = bind_trace(req_trace, params, isPG)
-        req.append(req_bound)
+        try:
+            req_p = match.group(0).split('\n')
+            params = read_params_trace(req_p)
+            req_trace = find_req_trace(req_p)
+            if len(req_trace)>3:
+                print('Trace request ---> \t', req_trace, '\n\n-----------------------------------')
+                if len(params)>0:
+                    req_bound = bind_trace(req_trace, params, isPG)
+                    req.append(req_bound)
+                else:
+                    req.append(req_trace)
+        except Exception as e:
+            req.append(str(e))
     save_file("req_TRACE_PARAMS", '\n'.join(req))
 
 
