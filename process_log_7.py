@@ -344,9 +344,9 @@ def process_trace(res, isPG=True):
 def main():
     res = read_file('log.txt')
     try:
-        if res[0].startswith('['):
+        if res[0][-1] == '[':
             process_log(res)
-        elif res[0].startswith('ORACLE'):
+        elif res[0][-6] == 'ORACLE':
             process_trace(res, False)
         else:
             process_trace(res, True)
