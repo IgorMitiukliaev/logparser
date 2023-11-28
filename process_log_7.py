@@ -344,11 +344,14 @@ def process_trace(res, isPG=True):
 def main():
     res = read_file('log.txt')
     try:
-        if res[0][-1] == '[':
+        if res[0][0] == '[':
+            print('pg')
             process_log(res)
-        elif res[0][-6] == 'ORACLE':
+        elif res[0][0:6] == 'ORACLE':
+            print('or')
             process_trace(res, False)
         else:
+            print('t')
             process_trace(res, True)
     except Exception as e:
         print(str(e))
