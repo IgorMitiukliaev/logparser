@@ -1,68 +1,611 @@
 ORACLE
-#1, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#2, type RSDSHORT, value: 32767                                                              RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#3, type RSDSHORT, value: -32768                                                             RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#4, type RSDSHORT, value: 32767                                                              RsdCmdSp.cpp (line 1561)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#5, type RSDLONG, value: -2147483648                                                         RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#6, type RSDLONG, value: 2147483647                                                          RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#7, type RSDLONG, value: 34                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#8, type RSDCHAR, value: 48                                                                  RsdCmdSp.cpp (line 1633)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#9, type RSDLONG, value: 16                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#10, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#11, type RSDLONG, value: 0                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.399 17-11-2023
-#12, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#13, type RSDLONG, value: 292                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#14, type RSDLONG, value: 16                                                                 RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#15, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#16, type RSDLONG, value: 16                                                                 RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#17, type RSDLONG, value: 330                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#18, type RSDLONG, value: 100                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#19, type RSDLONG, value: 291                                                                RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#20, type RSDLONG, value: 3                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#21, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#22, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#23, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#24, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#25, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#26, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#27, type RSDCHAR, value: 82                                                                 RsdCmdSp.cpp (line 1633)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#28, type RSDLPSTR, value: Љ                                                                 RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#29, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.400 17-11-2023
-#30, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1641)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
-#31, type RSDLONG, value: 4                                                                  RsdCmdSp.cpp (line 1577)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
-#32, type RSDDATE, value: 1.1.1991                                                           RsdCmdSp.cpp (line 1714)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
-#33, type RSDDATE, value: 8.12.2020                                                          RsdCmdSp.cpp (line 1714)         Parameter\Input                      4        RSDODBC               08:35:27.401 17-11-2023
-SELECT /*+FIRST_ROWS LEADING(t pmpaym pmrmprop debet credit oproper oprcurst) INDEX(t dmem   RSDCommandO.cpp (line 610)       SQL\Execute                          1        RSDODBC               08:35:27.401 17-11-2023
-order_dbt_idx1) INDEX(pmpaym dpmpaym_dbt_idx0) USE_NL(t pmpaym pmrmprop debet credit oprop
-er oprcurst)*/ t.t_orderid, t.t_dockind, t.t_kind_operation, t.t_oper, t.t_status, t.t_use
-rfield1, t.t_userfield2, t.t_userfield3, t.t_userfield4, t.t_origin, t.t_maketid, t.t_cont
-rnversion, t.t_reserve,pmpaym.t_PayerAccount,pmpaym.t_ReceiverAccount,pmpaym.t_Amount,pmpa
-ym.t_PayAmount,pmpaym.t_FIID,pmpaym.t_PayFIID,pmpaym.t_BaseAmount,pmpaym.t_NumberPack,pmpa
-ym.t_PaymentID,pmpaym.t_ValueDate,pmpaym.t_CloseDate,pmpaym.t_DocKind,pmpaym.t_PaymStatus,
-pmrmprop.t_ClientDate,pmrmprop.t_PayerChargeOffDate,pmrmprop.t_Number,pmrmprop.t_Instancy,
-debet.t_BankCode,credit.t_BankCode,credit.t_Group,credit.t_TransferDate,oproper.t_ID_Opera
-tion,pmpaym.t_ToBackOffice,pmrmprop.t_ShifrOper,PM_SCRHLP.GetDepartmentName(pmpaym.t_Depar
-tment),PM_SCRHLP.GetDepartmentName(pmpaym.t_StartDepartment),PM_SCRHLP.GetDepartmentName(p
-mpaym.t_EndDepartment),PM_SCRHLP.GetNodeName(pmpaym.t_OperNode),PM_SCRHLP.GetInstancyCode(
-pmrmprop.t_Instancy),PM_SCRHLP.GetBankPaymOriginName(t.t_Origin),PM_SCRHLP.GetBankPaymStat
-usName(t.t_Status),PM_SCRHLP.GetOprStatusDOName(oprcurst.t_NumValue) FROM dmemorder_dbt t,
- dpmprop_dbt credit, dpmprop_dbt debet, doprcurst_dbt oprcurst, doproper_dbt oproper, dcor
-schem_dbt pmcor, ddp_dep_dbt pmcor_cdep, dpmpaym_dbt pmpaym, ddp_dep_dbt pmpaym_dp_dep, dd
-p_dep_dbt pmpaym_edep, ddp_dep_dbt pmpaym_sdep, dpmrmprop_dbt pmrmprop, doprcurst_dbt reje
-ct WHERE  (t.t_dockind BETWEEN ? AND ?  AND t.t_status BETWEEN ? AND ?  AND t.t_orderid BE
-TWEEN ? AND ? ) AND  (oproper.t_DocumentID=LPAD(t.t_OrderID, ?, ?) AND oproper.t_DocKind I
-N (?, ?) AND pmpaym.t_PaymentID=t.t_OrderID AND debet.t_PaymentID(+)=pmpaym.t_PaymentID AN
-D debet.t_debetcredit(+)=? AND credit.t_PaymentID(+)=pmpaym.t_PaymentID AND credit.t_debet
-credit(+)=? AND pmrmprop.t_PaymentID=pmpaym.t_PaymentID AND oprcurst.t_ID_Operation(+)=opr
-oper.t_ID_Operation AND oprcurst.t_StatusKindId(+)=? AND t.t_DocKind IN (?, ?) AND pmpaym.
-t_DocKind IN (?, ?) AND pmpaym.t_PaymStatus=? AND reject.t_ID_Operation=oproper.t_ID_Opera
-tion AND reject.t_StatusKindID=? AND reject.t_NumValue=? AND ((pmpaym.t_Department=pmpaym_
-dp_dep.t_Code(+) AND pmpaym.t_StartDepartment=pmpaym_sdep.t_Code(+) AND pmpaym.t_EndDepart
-ment=pmpaym_edep.t_Code(+) AND pmpaym.t_Department=pmpaym_dp_dep.t_Code(+) AND pmpaym.t_De
-partment=pmpaym_dp_dep.t_Code(+) AND pmcor.t_Department=pmcor_cdep.t_Code(+) AND credit.t_
-Corschem=pmcor.t_Number(+) AND credit.t_PayFIID=pmcor.t_FIID(+) AND pmcor.t_FI_Kind(+)=?) 
-AND ((((((((((((pmpaym_dp_dep.t_Name=? OR pmpaym_sdep.t_Name=? OR pmpaym_edep.t_Name=?))) 
-OR (pmpaym_dp_dep.t_Name=?))) OR (pmpaym_dp_dep.t_Name=?))) OR (EXISTS(select 1 from doprs
-tep_dbt pmost where oproper.t_ID_Operation=pmost.t_ID_Operation AND pmost.t_IsExecute=? AN
-D (pmost.t_Symbol=?))))) OR ((pmpaym.t_Oper=? OR pmcor_cdep.t_Name=?))))))) AND  (t.t_Stat
-us=? AND pmpaym.t_CloseDate BETWEEN ? AND ?) ORDER BY t.t_dockind, t.t_status, t.t_orderid
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:37.772 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=254,File=party.dbt,ErrText=No d       4        17:13:37.772 27-11-2023   btrvfile.c (line 522)
+                                                              escription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:37.820 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=254,File=party.dbt,ErrText=No d       4        17:13:37.820 27-11-2023   btrvfile.c (line 891)
+                                                              escription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:37.820 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=254,File=party.dbt,ErrText=No d       4        17:13:37.820 27-11-2023   btrvfile.c (line 522)
+                                                              escription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dclient_dbt                    1        17:13:37.821 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=client.dbt,ErrText=Нев       2        17:13:37.821 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dpartylst_dbt                  1        17:13:37.821 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=254,File=partylst.dbt,ErrText=N       4        17:13:37.821 27-11-2023   btrvfile.c (line 522)
+                                                              o description
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpartyown_dbt                  1        17:13:37.821 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=partyown.dbt,ErrText=Н       2        17:13:37.821 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpartcode_dbt                  1        17:13:37.821 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=partcode.dbt,ErrText=Н       2        17:13:37.822 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dsettacc_dbt                   1        17:13:37.822 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=settacc.dbt,ErrText=Неве       2        17:13:37.822 27-11-2023   btrvfile.c (line 522)
+                                                              рная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dsfssi_dbt                     1        17:13:37.822 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=sfssi.dbt,ErrText=Неверн       2        17:13:37.822 27-11-2023   btrvfile.c (line 522)
+                                                              ая позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dbankdprt_dbt                  1        17:13:37.822 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=bankdprt.dbt,ErrText=Н       2        17:13:37.822 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbicdir_dbt                  1        17:13:37.823 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbicdir.dbt,ErrText=Н       2        17:13:37.823 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dbnkschem_dbt                  1        17:13:37.823 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=bnkschem.dbt,ErrText=Н       2        17:13:37.823 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptsvdp_dbt                    1        17:13:37.823 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptsvdp.dbt,ErrText=Нев       2        17:13:37.823 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dcorschem_dbt                  1        17:13:37.823 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=corschem.dbt,ErrText=Н       2        17:13:37.824 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dwltransp_dbt                  1        17:13:37.824 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=wltransp.dbt,ErrText=No        4        17:13:37.824 27-11-2023   btrvfile.c (line 522)
+                                                              description
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dwltransp_dbt                  1        17:13:37.824 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=wltransp.dbt,ErrText=No        4        17:13:37.824 27-11-2023   btrvfile.c (line 891)
+                                                              description
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dwltpcode_dbt                  1        17:13:37.825 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=wltpcode.dbt,ErrText=Нев       2        17:13:37.825 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dservkind_dbt                  1        17:13:37.825 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=servkind.dbt,ErrText=Н       2        17:13:37.825 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dservksub_dbt                  1        17:13:37.825 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=servksub.dbt,ErrText=Н       2        17:13:37.825 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpersn_dbt                     1        17:13:37.825 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=persn.dbt,ErrText=Неве       2        17:13:37.826 27-11-2023   btrvfile.c (line 522)
+                                                              рная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dofficer_dbt                   1        17:13:37.826 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=officer.dbt,ErrText=Не       2        17:13:37.826 27-11-2023   btrvfile.c (line 522)
+                                                              верная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: doffformlnk_dbt                1        17:13:37.826 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=offformlnk.dbt,ErrText       2        17:13:37.826 27-11-2023   btrvfile.c (line 522)
+                                                              =Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dadress_dbt                    1        17:13:37.826 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=adress.dbt,ErrText=Нев       2        17:13:37.826 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dinstitut_dbt                  1        17:13:37.827 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=institut.dbt,ErrText=Н       2        17:13:37.827 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptregion_dbt                  1        17:13:37.827 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptregion.dbt,ErrText=Н       2        17:13:37.827 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpmautoac_dbt                  1        17:13:37.827 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=pmautoac.dbt,ErrText=Нев       2        17:13:37.827 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptacc_ls_dbt                  1        17:13:37.827 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptacc_ls.dbt,ErrText=Н       2        17:13:37.828 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptkind_dbt                    1        17:13:37.828 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptkind.dbt,ErrText=Нев       2        17:13:37.828 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dcorsfins_dbt                  1        17:13:37.828 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=corsfins.dbt,ErrText=Н       2        17:13:37.828 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dcoraccdp_dbt                  1        17:13:37.828 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=coraccdp.dbt,ErrText=Н       2        17:13:37.828 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dobjlink_dbt                   1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=objlink.dbt,ErrText=Неве       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              рная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dadrtypecheck_dbt              1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=adrtypecheck.dbt,ErrTe       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dadrtype_dbt                   1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=adrtype.dbt,ErrText=Не       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              верная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dadmterr_dbt                   1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=admterr.dbt,ErrText=Не       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              верная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dcountry_dbt                   1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=country.dbt,ErrText=Не       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              верная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dofshhist_dbt                  1        17:13:37.829 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ofshhist.dbt,ErrText=Н       2        17:13:37.829 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpersnidc_dbt                  1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=persnidc.dbt,ErrText=Н       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptdupprm_dbt                  1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptdupprm.dbt,ErrText=Н       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptdupcnvdoc_dbt               1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptdupcnvdoc.dbt,ErrTex       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dcnvrepdupprm_dbt              1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=cnvrepdupprm.dbt,ErrTe       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptprmhist_dbt                 1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptprmhist.dbt,ErrText=       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: ddlssi_dbt                     1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=dlssi.dbt,ErrText=Неве       2        17:13:37.830 27-11-2023   btrvfile.c (line 522)
+                                                              рная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptdpsfplan_dbt                1        17:13:37.830 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=ptdpsfplan.dbt,ErrText=Н       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpartyname_dbt                 1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=partyname.dbt,ErrText=       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpartykname_dbt                1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=partykname.dbt,ErrText       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              =Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptfrzng_dbt                   1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=ptfrzng.dbt,ErrText=Неве       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              рная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptspfs_dbt                    1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptspfs.dbt,ErrText=Нев       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              ерная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptecupridchkres_dbt           1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptecupridchkres.dbt,Er       2        17:13:37.831 27-11-2023   btrvfile.c (line 522)
+                                                              rText=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptpfprop_dbt                  1        17:13:37.831 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptpfprop.dbt,ErrText=Н       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dreqassetparty_dbt             1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=reqassetparty.dbt,ErrT       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistparty_dbt               1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistparty.dbt,ErrTex       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistptimp_tmp               1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistptimp.tmp,ErrText=       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistptname_dbt              1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistptname.dbt,ErrTe       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K: -1, F: dfmlistptnameimp_tmp           1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistptnameimp.tmp,ErrT       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistptadres_dbt             1        17:13:37.832 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistptadres.dbt,ErrT       2        17:13:37.832 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K: -1, F: dfmlistptadrimp_tmp            1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistptadrimp.tmp,ErrTe       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistptbirth_dbt             1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistptbirth.dbt,ErrT       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K: -1, F: dfmlistptbirthimp_tmp          1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistptbirthimp.tmp,Err       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              Text=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistptpaper_dbt             1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistptpaper.dbt,ErrT       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K: -1, F: dfmlistptpaperimp_tmp          1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistptpaperimp.tmp,Err       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              Text=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfmlistpttwin_dbt              1        17:13:37.833 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fmlistpttwin.dbt,ErrTe       2        17:13:37.833 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K: -1, F: dfmlistpttwinimp_tmp           1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=fmlistpttwinimp.tmp,ErrT       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbeneowner_dbt               1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbeneowner.dbt,ErrTex       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbeneficiary_dbt             1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbeneficiary.dbt,ErrT       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptriskfactorkind_dbt          1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptriskfactorkind.dbt,E       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              rrText=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptrisklevel_dbt               1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptrisklevel.dbt,ErrTex       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptriskfactor_dbt              1        17:13:37.834 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptriskfactor.dbt,ErrTe       2        17:13:37.834 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptprxsauth_dbt                1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=ptprxsauth.dbt,ErrText=Н       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              еверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptprxsauthc_dbt               1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=0,File=ptprxsauthc.dbt,ErrText=       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpttaxautor_dbt                1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=pttaxautor.dbt,ErrText       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              =Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpttaxpoint_dbt                1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=pttaxpoint.dbt,ErrText       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              =Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpttaxlink_dbt                 1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=pttaxlink.dbt,ErrText=       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbene3dparty_dbt             1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbene3dparty.dbt,ErrT       2        17:13:37.835 27-11-2023   btrvfile.c (line 522)
+                                                              ext=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbenownship_dbt              1        17:13:37.835 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbenownship.dbt,ErrTe       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              xt=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptbenownstr_tmp               1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptbenownstr.tmp,ErrTex       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpersnidcchk_dbt               1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=persnidcchk.dbt,ErrTex       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dpersnidcchkmass_dbt           1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=persnidcchkmass.dbt,Er       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              rText=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dptproxy_dbt                   1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=ptproxy.dbt,ErrText=Не       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              верная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dfm_ptlst_check_dbt            1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=fm_ptlst_check.dbt,Err       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              Text=Неверная позиция
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  8, K:  0, F: dnbrkpspattr_dbt               1        17:13:37.836 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$8                       Op=22,Error=8,Mode=254,File=nbrkpspattr.dbt,ErrTex       2        17:13:37.836 27-11-2023   btrvfile.c (line 522)
+                                                              t=Неверная позиция
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:37.837 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDSHORT, value: 20                             4        17:13:37.884 27-11-2023   RsdCmdSp.cpp (line 1561)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS */ t.t_listkind, t.t_partykin       1        17:13:37.885 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              d, t.t_servicekind, t.t_legalform, t.t_codekind, t
+                                                              .t_listtitle, t.t_paneltitle, t.t_ptk_name, t.t_pt
+                                                              k_description, t.t_inlist, t.t_condition, t.t_skip
+                                                              ourbank, t.t_secondpartykind, t.t_subkind, t.t_sec
+                                                              ondsubkind, t.t_reserve FROM dpartylst_dbt t WHERE
+                                                                ( t.t_listkind = ? ) ORDER BY t.t_listkind
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:37.935 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    5, R:  0, K:  0, F: dpartylst_dbt                  1        17:13:37.936 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=5,Error=0,Mode=0,File=partylst.dbt,ErrText=No d       4        17:13:37.936 27-11-2023   btrvfile.c (line 891)
+                                                              escription
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:37.936 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: 30                              4        17:13:37.984 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS */ t.t_privid, t.t_objecttype       1        17:13:37.984 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              , t.t_filename, t.t_macroname, t.t_isadminpriv FRO
+                                                              M dacspriv_dbt t WHERE  ( t.t_privid = ? ) ORDER B
+                                                              Y t.t_privid
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.033 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    5, R:  0, K:  0, F: dacspriv_dbt                   1        17:13:38.033 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=5,Error=0,Mode=254,File=acspriv.dbt,ErrText=No        4        17:13:38.033 27-11-2023   btrvfile.c (line 891)
+                                                              description
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:38.033 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: 30                              4        17:13:38.080 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #2, type RSDSHORT, value: 1                              4        17:13:38.081 27-11-2023   RsdCmdSp.cpp (line 1561)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS */ t.t_privid, t.t_oper, t.t_       1        17:13:38.081 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              isvalid, t.t_resultvalue FROM dacsoperrest_dbt t W
+                                                              HERE  ( t.t_privid = ? ) AND  ( t.t_oper = ? ) ORD
+                                                              ER BY t.t_privid, t.t_oper
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.131 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    5, R:  0, K:  0, F: dacsoperrest_dbt               1        17:13:38.131 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=5,Error=0,Mode=254,File=acsoperrest.dbt,ErrText       4        17:13:38.131 27-11-2023   btrvfile.c (line 891)
+                                                              =No description
+RSDODBC               SQL\Execute                             select * from (select '─└' t_Attr from dual union        1        17:13:38.183 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              select '═┼╥' t_Attr from dual) t where ((((t.t_Att
+                                                              r = '─└')) or (((t.t_Attr = '─└')) or (((t.t_Attr 
+                                                              = '─└')) or (((t.t_Attr = '─└')))))));
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.231 27-11-2023   RSDCommandO.cpp (line 704)
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.279 27-11-2023   RsdRSet.cpp (line 984)
+RSDODBC               SQL\GetFld(0)                           Value = 'ДА'                                             3        17:13:38.279 27-11-2023   RsdRSet.cpp (line 1203)
+RSDODBC               SQL\MoveNext                            Result= 256 [256]                                        2        17:13:38.280 27-11-2023   RsdRSet.cpp (line 984)
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:38.327 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: 810                             4        17:13:38.374 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS */ t.t_partyid, t.t_iownerkin       1        17:13:38.374 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              d, t.t_legalform, t.t_shortname, t.t_name, t.t_add
+                                                              name, t.t_okpo, t.t_notresident, t.t_superior, t.t
+                                                              _change_date, t.t_change_dateprev, t.t_locked, t.t
+                                                              _taxinstitution, t.t_taxregdate, t.t_systype, t.t_
+                                                              usertype, t.t_userfield1, t.t_userfield2, t.t_user
+                                                              field3, t.t_userfield4, t.t_nrcountry, t.t_consoli
+                                                              daterecord, t.t_setaccsearchalg, t.t_branch, t.t_n
+                                                              umsession, t.t_ofshorezone, t.t_mainpartyid, t.t_i
+                                                              sprobdoubler, t.t_isdoubler, t.t_hasdoubler, t.t_p
+                                                              aramsetid, t.t_hashvalue, t.t_latname, t.t_cbdk_is
+                                                              synch, t.t_cbdk_dateupdate, t.t_cbdk_timeupdate, t
+                                                              .t_cbdk_synchinfo, t.t_notupdateonimport, t.t_NotI
+                                                              dentify, t.t_reserve, t.t_LastCheckTerrDate, t.t_L
+                                                              astCheckTerrTime, t.t_ClosedAsDoublerID, t.t_PdnDe
+                                                              str, t.t_IsResidenceUnknown, t.t_MVKDecision, t.t_
+                                                              change_time, t.t_InputBranch FROM dparty_dbt t WHE
+                                                              RE  ( t.t_partyid = ? ) ORDER BY t.t_partyid
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.428 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    5, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.429 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=5,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.429 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.429 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.430 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:38.430 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDSHORT, value: 3                              4        17:13:38.477 27-11-2023   RsdCmdSp.cpp (line 1561)
+RSDODBC               Parameter\Input                         #2, type RSDSHORT, value: 3                              4        17:13:38.478 27-11-2023   RsdCmdSp.cpp (line 1561)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS */ t.t_objecttype, t.t_codeki       1        17:13:38.478 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              nd, t.t_name, t.t_shortname, t.t_maxcodelen, t.t_c
+                                                              asesensitive, t.t_definition, t.t_macrofile, t.t_m
+                                                              acroproc, t.t_duplicate, t.t_disabled, t.t_lowerDa
+                                                              teEnabled FROM dobjkcode_dbt t WHERE  ( t.t_object
+                                                              type = ? ) AND  ( t.t_codekind = ? ) ORDER BY t.t_
+                                                              objecttype, t.t_codekind
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.527 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    5, R:  0, K:  0, F: dobjkcode_dbt                  1        17:13:38.527 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=5,Error=0,Mode=254,File=objkcode.dbt,ErrText=No       4        17:13:38.527 27-11-2023   btrvfile.c (line 891)
+                                                               description
+AlapstOp              GetRegistryValue\                       KeyPath = CB\PARTY\CLIENTSACCESSMODE, retval = 0         1        17:13:38.528 27-11-2023   algtregk.c (line 845)
+AlapstOp              GetRegistryValue\                       value = 0, KeyType = REG_INT_TYPE                        1        17:13:38.528 27-11-2023   algtregk.c (line 851)
+AlapstOp              GetRegistryValue\                       KeyPath = COMMON\TOOLS\COLUMNWIDTH\W\2400_-dep:ope       1        17:13:38.532 27-11-2023   algtregk.c (line 845)
+                                                              _L_PARTY, retval = 5
+AlapstOp              GetRegistryValue\                       KeyPath = COMMON\TOOLS\SYSFILTR\W\2400_-dep:ope_L_       1        17:13:38.561 27-11-2023   algtregk.c (line 845)
+                                                              PARTY, retval = 5
+AlapstOp              GetRegistryValue\                       KeyPath = COMMON\TOOLS\SYSSORT\W\2400_-dep:ope_L_P       1        17:13:38.562 27-11-2023   algtregk.c (line 845)
+                                                              ARTY, retval = 5
+RSDRecordset          Recordset\Search                        PKFind: using search SQL                                 4        17:13:38.564 27-11-2023   RSDRSetSrch.cpp (line 629)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: 810                             4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #2, type RSDLONG, value: 11                              4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #3, type RSDLONG, value: 0                               4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #4, type RSDCHAR, value: 0                               4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1633)
+RSDODBC               Parameter\Input                         #5, type RSDLONG, value: 1                               4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #6, type RSDLONG, value: 3                               4        17:13:38.612 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS*/ t.t_partyid, t.t_iownerkind       1        17:13:38.612 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              , t.t_legalform, t.t_shortname, t.t_name, t.t_addn
+                                                              ame, t.t_okpo, t.t_notresident, t.t_superior, t.t_
+                                                              change_date, t.t_change_dateprev, t.t_locked, t.t_
+                                                              taxinstitution, t.t_taxregdate, t.t_systype, t.t_u
+                                                              sertype, t.t_userfield1, t.t_userfield2, t.t_userf
+                                                              ield3, t.t_userfield4, t.t_nrcountry, t.t_consolid
+                                                              aterecord, t.t_setaccsearchalg, t.t_branch, t.t_nu
+                                                              msession, t.t_ofshorezone, t.t_mainpartyid, t.t_is
+                                                              probdoubler, t.t_isdoubler, t.t_hasdoubler, t.t_pa
+                                                              ramsetid, t.t_hashvalue, t.t_latname, t.t_cbdk_iss
+                                                              ynch, t.t_cbdk_dateupdate, t.t_cbdk_timeupdate, t.
+                                                              t_cbdk_synchinfo, t.t_notupdateonimport, t.t_NotId
+                                                              entify, t.t_reserve, t.t_LastCheckTerrDate, t.t_La
+                                                              stCheckTerrTime, t.t_ClosedAsDoublerID, t.t_PdnDes
+                                                              tr, t.t_IsResidenceUnknown, t.t_MVKDecision, t.t_c
+                                                              hange_time, t.t_InputBranch,NVL(partcode_opened.t_
+                                                              Code, chr(1)) FROM dparty_dbt t, dpartcode_opened_
+                                                              view partcode_opened, dpartyown_dbt partyown WHERE
+                                                                ( t.t_partyid = ? ) AND  (partyown.t_PartyID=t.t
+                                                              _PartyID AND partyown.t_PartyKind=? AND partyown.t
+                                                              _SubKind=? AND t.t_Locked=? AND t.t_LegalForm=? AN
+                                                              D partcode_opened.t_PartyID(+)=t.t_PartyID AND par
+                                                              tcode_opened.t_CodeKind(+)=?)
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.665 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.667 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.668 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.668 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.668 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDRecordset          Recordset\Navigation                    Next: shifting cache                                     4        17:13:38.716 27-11-2023   RSDRSetNav.cpp (line 577)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: 810                             4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #2, type RSDLONG, value: -2147483648                     4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #3, type RSDLONG, value: 2147483647                      4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #4, type RSDLONG, value: 11                              4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #5, type RSDLONG, value: 0                               4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #6, type RSDCHAR, value: 0                               4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1633)
+RSDODBC               Parameter\Input                         #7, type RSDLONG, value: 1                               4        17:13:38.763 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #8, type RSDLONG, value: 3                               4        17:13:38.764 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS*/ t.t_partyid, t.t_iownerkind       1        17:13:38.764 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              , t.t_legalform, t.t_shortname, t.t_name, t.t_addn
+                                                              ame, t.t_okpo, t.t_notresident, t.t_superior, t.t_
+                                                              change_date, t.t_change_dateprev, t.t_locked, t.t_
+                                                              taxinstitution, t.t_taxregdate, t.t_systype, t.t_u
+                                                              sertype, t.t_userfield1, t.t_userfield2, t.t_userf
+                                                              ield3, t.t_userfield4, t.t_nrcountry, t.t_consolid
+                                                              aterecord, t.t_setaccsearchalg, t.t_branch, t.t_nu
+                                                              msession, t.t_ofshorezone, t.t_mainpartyid, t.t_is
+                                                              probdoubler, t.t_isdoubler, t.t_hasdoubler, t.t_pa
+                                                              ramsetid, t.t_hashvalue, t.t_latname, t.t_cbdk_iss
+                                                              ynch, t.t_cbdk_dateupdate, t.t_cbdk_timeupdate, t.
+                                                              t_cbdk_synchinfo, t.t_notupdateonimport, t.t_NotId
+                                                              entify, t.t_reserve, t.t_LastCheckTerrDate, t.t_La
+                                                              stCheckTerrTime, t.t_ClosedAsDoublerID, t.t_PdnDes
+                                                              tr, t.t_IsResidenceUnknown, t.t_MVKDecision, t.t_c
+                                                              hange_time, t.t_InputBranch,NVL(partcode_opened.t_
+                                                              Code, chr(1)) FROM dparty_dbt t, dpartcode_opened_
+                                                              view partcode_opened, dpartyown_dbt partyown WHERE
+                                                                (t.t_partyid > ?) AND  (t.t_partyid BETWEEN ? AN
+                                                              D ? ) AND  (partyown.t_PartyID=t.t_PartyID AND par
+                                                              tyown.t_PartyKind=? AND partyown.t_SubKind=? AND t
+                                                              .t_Locked=? AND t.t_LegalForm=? AND partcode_opene
+                                                              d.t_PartyID(+)=t.t_PartyID AND partcode_opened.t_C
+                                                              odeKind(+)=?) ORDER BY t.t_partyid
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:38.830 27-11-2023   RSDCommandO.cpp (line 704)
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.957 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.957 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.957 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.957 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.957 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.958 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.958 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.958 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.958 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.958 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.958 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.958 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.958 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.959 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.959 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.959 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.959 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.959 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.959 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.959 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.959 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.960 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.960 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.960 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.960 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.960 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.960 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.960 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.960 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.960 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.960 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.961 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.961 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.961 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.961 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.961 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.961 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.961 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.961 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.962 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.962 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.962 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.962 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.962 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.962 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.962 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.963 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.963 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.963 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.963 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.963 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.963 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.963 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.963 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.963 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.964 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.964 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.964 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.964 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.964 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.964 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.964 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.964 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.965 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.965 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.965 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.965 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.965 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.965 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.965 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.965 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.966 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.966 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.966 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.966 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDODBC               SQL\MoveNext                            Result= 0 [3]                                            2        17:13:38.966 27-11-2023   RsdRSet.cpp (line 984)
+BtrvOp                Emulator Log\Btrieve Operation          O:    6, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.966 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=6,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:38.966 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:38.966 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:38.966 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+RSDRecordset          Recordset\Search                        KeyFind: using search SQL                                4        17:13:38.967 27-11-2023   RSDRSetSrch.cpp (line 816)
+RSDODBC               Parameter\Input                         #1, type RSDLONG, value: -2147483648                     4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #2, type RSDLONG, value: 2147483647                      4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #3, type RSDLONG, value: 11                              4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #4, type RSDLONG, value: 0                               4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #5, type RSDCHAR, value: 0                               4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1633)
+RSDODBC               Parameter\Input                         #6, type RSDLONG, value: 1                               4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               Parameter\Input                         #7, type RSDLONG, value: 3                               4        17:13:39.014 27-11-2023   RsdCmdSp.cpp (line 1577)
+RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS*/ t.t_partyid, t.t_iownerkind       1        17:13:39.014 27-11-2023   RSDCommandO.cpp (line 610)
+                                                              , t.t_legalform, t.t_shortname, t.t_name, t.t_addn
+                                                              ame, t.t_okpo, t.t_notresident, t.t_superior, t.t_
+                                                              change_date, t.t_change_dateprev, t.t_locked, t.t_
+                                                              taxinstitution, t.t_taxregdate, t.t_systype, t.t_u
+                                                              sertype, t.t_userfield1, t.t_userfield2, t.t_userf
+                                                              ield3, t.t_userfield4, t.t_nrcountry, t.t_consolid
+                                                              aterecord, t.t_setaccsearchalg, t.t_branch, t.t_nu
+                                                              msession, t.t_ofshorezone, t.t_mainpartyid, t.t_is
+                                                              probdoubler, t.t_isdoubler, t.t_hasdoubler, t.t_pa
+                                                              ramsetid, t.t_hashvalue, t.t_latname, t.t_cbdk_iss
+                                                              ynch, t.t_cbdk_dateupdate, t.t_cbdk_timeupdate, t.
+                                                              t_cbdk_synchinfo, t.t_notupdateonimport, t.t_NotId
+                                                              entify, t.t_reserve, t.t_LastCheckTerrDate, t.t_La
+                                                              stCheckTerrTime, t.t_ClosedAsDoublerID, t.t_PdnDes
+                                                              tr, t.t_IsResidenceUnknown, t.t_MVKDecision, t.t_c
+                                                              hange_time, t.t_InputBranch,NVL(partcode_opened.t_
+                                                              Code, chr(1)) FROM dparty_dbt t, dpartcode_opened_
+                                                              view partcode_opened, dpartyown_dbt partyown WHERE
+                                                                (t.t_partyid BETWEEN ? AND ? ) AND  (partyown.t_
+                                                              PartyID=t.t_PartyID AND partyown.t_PartyKind=? AND
+                                                               partyown.t_SubKind=? AND t.t_Locked=? AND t.t_Leg
+                                                              alForm=? AND partcode_opened.t_PartyID(+)=t.t_Part
+                                                              yID AND partcode_opened.t_CodeKind(+)=?) ORDER BY 
+                                                              t.t_partyid
+RSDODBC               SQL\Execute                             Result= 0                                                1        17:13:39.081 27-11-2023   RSDCommandO.cpp (line 704)
+BtrvOp                Emulator Log\Btrieve Operation          O:    9, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.261 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=9,Error=0,Mode=0,File=party.dbt,ErrText=No desc       4        17:13:39.261 27-11-2023   btrvfile.c (line 891)
+                                                              ription
+BtrvOp                Emulator Log\Btrieve Operation          O:   22, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.261 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=22,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.262 27-11-2023   btrvfile.c (line 522)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.262 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.262 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.263 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.263 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.264 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.264 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.264 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.265 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.265 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.265 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.266 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.266 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.267 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.267 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.267 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.268 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.268 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.268 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.269 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.269 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.270 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.270 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.270 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.271 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.271 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.271 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.272 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.272 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.273 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.273 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.273 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.274 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.274 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.274 27-11-2023   btrvfile.c (line 891)
+                                                              cription
+BtrvOp                Emulator Log\Btrieve Operation          O:   23, R:  0, K:  0, F: dparty_dbt                     1        17:13:39.275 27-11-2023   EmBtrvop.cpp (line 143)
+BtrieveSource         OutTransaction\$0                       Op=23,Error=0,Mode=0,File=party.dbt,ErrText=No des       4        17:13:39.275 27-11-2023   btrvfile.c (line 891)
+                                                              cription
