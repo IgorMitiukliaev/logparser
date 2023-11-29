@@ -122,30 +122,31 @@ def read_params_trace(data):
 def make_pg(params):
     p_pg = []
     for el in params:
-        if el[1] == 'RSDPT_CHAR':
-            if el[2].isdigit():
-                p_pg.insert(int(el[0]), 'glob_func.chr({0})'.format(el[2]))
-            else:
+        match el[1]:
+            case 'RSDPT_CHAR':
+                if el[2].isdigit():
+                    p_pg.insert(int(el[0]), 'glob_func.chr({0})'.format(el[2]))
+                else:
+                    p_pg.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_SHORT':
                 p_pg.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_SHORT':
-            p_pg.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_LPSTR':
-            p_pg.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_LONG':
-            p_pg.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_NUMERIC':
-            p_pg.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_TIMESTAMP':
-            p_pg.insert(
-                int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(format_date(el[2])))
-        elif el[1] == 'RSDPT_DATE':
-            p_pg.insert(
-                int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(format_date(el[2])))
-        elif el[1] == 'RSDPT_TIME':
-            p_pg.insert(
-                int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'HH24:MI:SS\')'.format(format_date(el[2])))
-        else:
-            raise Exception('unknown type {0}'.format(el[1]))
+            case 'RSDPT_LPSTR':
+                p_pg.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_LONG':
+                p_pg.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_NUMERIC':
+                p_pg.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_TIMESTAMP':
+                p_pg.insert(
+                    int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(format_date(el[2])))
+            case 'RSDPT_DATE':
+                p_pg.insert(
+                    int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(format_date(el[2])))
+            case 'RSDPT_TIME':
+                p_pg.insert(
+                    int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'HH24:MI:SS\')'.format(format_date(el[2])))
+            case _:
+                raise Exception('unknown type {0}'.format(el[1]))
     return p_pg
     # return sorted(params, key=lambda el: el[0])
 
@@ -159,29 +160,30 @@ def format_date(data):
 def make_ora(params):
     p_or = []
     for el in params:
-        if el[1] == 'RSDPT_CHAR':
-            if el[2].isdigit():
-                p_or.insert(int(el[0]), 'chr({0})'.format(el[2]))
-            else:
+        match el[1]:
+            case 'RSDPT_CHAR':
+                if el[2].isdigit():
+                    p_or.insert(int(el[0]), 'chr({0})'.format(el[2]))
+                else:
+                    p_or.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_SHORT':
                 p_or.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_SHORT':
-            p_or.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_LONG':
-            p_or.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_LPSTR':
-            p_or.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_NUMERIC':
-            p_or.insert(int(el[0]), '{0}'.format(el[2]))
-        elif el[1] == 'RSDPT_TIMESTAMP':
-            p_or.insert(
-                int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(el[2]))
-        elif el[1] == 'RSDPT_DATE':
-            p_or.insert(
-                int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(el[2]))
-        elif el[1] == 'RSDPT_TIME':
-            p_or.insert(
-                int(el[0]), 'to_date(\'{0}\',\'HH24:MI:SS\')'.format(el[2]))
-        else:
+            case 'RSDPT_LONG':
+                p_or.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_LPSTR':
+                p_or.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_NUMERIC':
+                p_or.insert(int(el[0]), '{0}'.format(el[2]))
+            case 'RSDPT_TIMESTAMP':
+                p_or.insert(
+                    int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(el[2]))
+            case 'RSDPT_DATE':
+                p_or.insert(
+                    int(el[0]), 'to_date(\'{0}\',\'DD:MM:YYYY\')'.format(el[2]))
+            case 'RSDPT_TIME':
+                p_or.insert(
+                    int(el[0]), 'to_date(\'{0}\',\'HH24:MI:SS\')'.format(el[2]))
+            case _:
                 raise Exception('unknown type {0}'.format(el[1]))
     return p_or
 
@@ -190,53 +192,55 @@ def make_tr(params, isPG=True):
     p_tr = []
     if isPG:
         for el in params:
-            if el[1] == 'RSDLONG':
-                p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
-            elif el[1] == 'RSDCHAR':
-                if el[2].isdigit():
-                    p_tr.insert(
-                        int(el[0]), 'glob_func.chr({0})'.format(el[2]))
-                else:
-                    p_tr.insert(int(el[0]), '{0}'.format(el[2]))
-            elif el[1] == 'RSDTIMESTAMP':
+            match el[1]:
+                case 'RSDLONG':
+                    p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
+                case 'RSDCHAR':
+                    if el[2].isdigit():
+                        p_tr.insert(
+                            int(el[0]), 'glob_func.chr({0})'.format(el[2]))
+                    else:
+                        p_tr.insert(int(el[0]), '{0}'.format(el[2]))
+                case 'RSDTIMESTAMP':
                     p_tr.insert(
                         int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'DD.MM.YYYY HH24:MI:SS\')'.format(el[2]))
-            elif el[1] == 'RSDSHORT':
+                case 'RSDSHORT':
                     p_tr.insert(int(el[0]), '{0}'.format(el[2]))
-            elif el[1] == 'RSDLPSTR':
+                case 'RSDLPSTR':
                     p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
-            elif el[1] == 'RSDDATE':
+                case 'RSDDATE':
                     p_tr.insert(
                         int(el[0]), 'to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
-            elif el[1] == 'RSDTIME':
+                case 'RSDTIME':
                     p_tr.insert(
                         int(el[0]), 'glob_func.to_timestamp_immutable(\'{0}\',\'HH24:MI:SS\')'.format(el[2]))
                     
-            else:
+                case _:
                     raise Exception('unknown type {0}'.format(el[1]))
     else:
         for el in params:
-            if el[1] == 'RSDLONG':
-                p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
-            elif el[1] == 'RSDCHAR':
-                if el[2].isdigit():
-                    p_tr.insert(int(el[0]), 'chr({0})'.format(el[2]))
-                else:
-                    p_tr.insert(int(el[0]), '{0}'.format(el[2]))
-            elif el[1] == 'RSDTIMESTAMP':
+            match el[1]:
+                case 'RSDLONG':
+                    p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
+                case 'RSDCHAR':
+                    if el[2].isdigit():
+                        p_tr.insert(int(el[0]), 'chr({0})'.format(el[2]))
+                    else:
+                        p_tr.insert(int(el[0]), '{0}'.format(el[2]))
+                case 'RSDTIMESTAMP':
                     p_tr.insert(
                         int(el[0]), 'to_timestamp(\'{0}\',\'DD.MM.YYYY HH:MM:SS\')'.format(el[2]))
-            elif el[1] == 'RSDSHORT':
+                case 'RSDSHORT':
                     p_tr.insert(int(el[0]), '{0}'.format(el[2]))
-            elif el[1] == 'RSDLPSTR':
+                case 'RSDLPSTR':
                     p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
-            elif el[1] == 'RSDDATE':
+                case 'RSDDATE':
                     p_tr.insert(
                         int(el[0]), 'to_date(\'{0}\',\'DD.MM.YYYY\')'.format(el[2]))
-            elif el[1] == 'RSDTIME':
+                case 'RSDTIME':
                     p_tr.insert(
                         int(el[0]), 'to_timestamp(\'{0}\',\'HH:MM:SS\')'.format(el[2]))
-            else:
+                case _:
                     raise Exception('unknown type {0}'.format(el[1]))
     return p_tr
 
@@ -344,14 +348,11 @@ def process_trace(res, isPG=True):
 def main():
     res = read_file('log.txt')
     try:
-        if res[0][0] == '[':
-            print('pg')
+        if res[0].startswith('['):
             process_log(res)
-        elif res[0][0:6] == 'ORACLE':
-            print('or')
+        elif res[0].startswith('ORACLE'):
             process_trace(res, False)
         else:
-            print('t')
             process_trace(res, True)
     except Exception as e:
         print(str(e))
