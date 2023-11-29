@@ -56,7 +56,7 @@ def find_req_trace(data):
             #   OR ADJUST IT YOURSELF:
             #
             #
-            pos_end = len(line) - len(mg[-1]) - shift[1]
+            pos_end = len(line) - len(mg[-1]) - shift[0]
             check_p = True
         elif not match:
             if check_p and not check_r:
@@ -194,7 +194,7 @@ def make_tr(params, isPG=True):
     if isPG:
         for el in params:
             if el[1] == 'RSDLONG':
-                p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
+                p_tr.insert(int(el[0]), '{0}'.format(el[2]))
             elif el[1] == 'RSDCHAR':
                 if el[2].isdigit():
                     p_tr.insert(
@@ -220,7 +220,7 @@ def make_tr(params, isPG=True):
     else:
         for el in params:
             if el[1] == 'RSDLONG':
-                p_tr.insert(int(el[0]), '\'{0}\''.format(el[2]))
+                p_tr.insert(int(el[0]), '{0}'.format(el[2]))
             elif el[1] == 'RSDCHAR':
                 if el[2].isdigit():
                     p_tr.insert(int(el[0]), 'chr({0})'.format(el[2]))
