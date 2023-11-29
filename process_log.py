@@ -29,12 +29,20 @@ def save_file(filename, data):
 
 
 def find_req(type, data):
+    _on = False
     for line in data:
         if type in line:
             req = line.partition(type)[2][2:]
-            if type == "NSQL":
-                req = req[:-1:] + ';'
-            return req
+            _on = True
+            continue
+        elif _on:
+            if line[0] == '[':
+                _on = False
+                if type == "NSQL":
+                    req = req[:-1:] + ';'
+            else:
+                req += line
+    return req
 
 
 def find_req_trace(data):

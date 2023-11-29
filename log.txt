@@ -1,70 +1,38 @@
-ORACLE
-RSDODBC               Parameter\Input                         #1, type RSDSHORT, value: 1                              4        10:05:23.792 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #2, type RSDSHORT, value: 1                              4        10:05:23.792 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #3, type RSDDATE, value: 0.0.0                           4        10:05:23.792 29-11-2023   RsdCmdSp.cpp (line 1714)
-RSDODBC               Parameter\Input                         #4, type RSDDATE, value: 31.12.9999                      4        10:05:23.792 29-11-2023   RsdCmdSp.cpp (line 1714)
-RSDODBC               Parameter\Input                         #5, type RSDTIME, value: 0:0:0                           4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1726)
-RSDODBC               Parameter\Input                         #6, type RSDTIME, value: 23:59:59                        4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1726)
-RSDODBC               Parameter\Input                         #7, type RSDSHORT, value: -32768                         4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #8, type RSDSHORT, value: 32767                          4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #9, type RSDSHORT, value: -32768                         4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #10, type RSDSууHORT, value: 32767                         4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1561)
-RSDODBC               Parameter\Input                         #11, type RSDCHAR, value: 0                              4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1633)
-RSDODBC               Parameter\Input                         #12, type RSDCHAR, value: 255                            4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1633)
-RSDODBC               Parameter\Input                         #13, type RSDCHAR, value: 0                              4        10:05:23.793 29-11-2023   RsdCmdSp.cpp (line 1633)
-RSDODBC               Parameter\Input                         #14, type RSDCHAR, value: 88                             4        10:05:23.794 29-11-2023   RsdCmdSp.cpp (line 1633)
-RSDODBC               SQL\Execute                             SELECT /*+FIRST_ROWS*/ t.t_id, t.t_cidentprogram,        1        10:05:23.794 29-11-2023   RSDCommandO.cpp (line 610)
-                                                              t.t_eventtype, t.t_periodicalevent, t.t_startdate,
-                                                               t.t_starttime, t.t_enddate, t.t_endtime, t.t_next
-                                                              date, t.t_nexttime, t.t_periodtype, t.t_periodleng
-                                                              th, t.t_workdays, t.t_daysofweek, t.t_daysofmonth,
-                                                               t.t_status, t.t_action, t.t_parms, t.t_paused, t.
-                                                              t_comment, t.t_sysevents, t.t_department, t.t_prio
-                                                              rity, t.t_openphase, t.t_usereventcode, t.t_useday
-                                                              event, t.t_eventdayorder, t.t_eventdaykind, t.t_ev
-                                                              entperiodtype, t.t_notifyoferror, t.t_notifyofcomp
-                                                              letion, t.t_onexacttime, t.t_exacttime, t.t_notify
-                                                              ofactcomplete, t.t_runactionschain FROM dshedule_d
-                                                              bt t WHERE  (t.t_department BETWEEN ? AND ?  AND t
-                                                              .t_nextdate BETWEEN ? AND ?  AND t.t_nexttime BETW
-                                                              EEN ? AND ?  AND t.t_priority BETWEEN ? AND ?  AND
-                                                               t.t_periodtype BETWEEN ? AND ?  AND t.t_onexactti
-                                                              me BETWEEN ? AND ? ) AND  (t.t_Paused=? AND t.t_Ev
-                                                              entType=?) ORDER BY t.t_department, t.t_nextdate, 
-                                                              t.t_nexttime, t.t_priority, t.t_periodtype, t.t_on
-                                                              exacttime DESC, t.t_id
-RSDODBC               SQL\Execute                             Result= 0                                                1        10:05:23.904 29-11-2023   RSDCommandO.cpp (line 704)
-
-#1, type RSDLONG, value: 1                                                                   RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#2, type RSDLONG, value: 34                                                                  RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#3, type RSDCHAR, value: 48                                                                  RsdCmdSp.cpp (line 1766)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#4, type RSDLONG, value: 1                                                                   RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#5, type RSDLONG, value: 0                                                                   RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#6, type RSDLONG, value: 5509                                                                RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#7, type RSDLONG, value: 0                                                                   RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#8, type RSDLPSTR, value: ѓЋ                                                                 RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#9, type RSDLPSTR, value: ѓЋ                                                                 RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#10, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#11, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#12, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#13, type RSDCHAR, value: 82                                                                 RsdCmdSp.cpp (line 1766)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#14, type RSDLPSTR, value: Љ                                                                 RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#15, type RSDLONG, value: 1                                                                  RsdCmdSp.cpp (line 1710)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-#16, type RSDLPSTR, value: ѓЋ                                                                RsdCmdSp.cpp (line 1774)         Parameter\Input                      4        RSDODBC               12:22:45.955 20-11-2023
-select   COUNT(?)  as "COUNT" from ( (  doproper_dbt oproper right outer join ( ( (  dpmpa   RSDCommandO.cpp (line 692)       SQL\Execute                          1        RSDODBC               12:22:45.955 20-11-2023
-ym_dbt pmpaym left outer join  ddp_dep_dbt pmpaym_dp_dep on pmpaym.t_Department=pmpaym_dp_
-dep.t_Code and pmpaym.t_Department=pmpaym_dp_dep.t_Code and pmpaym.t_Department=pmpaym_dp_
-dep.t_Code) left outer join  ddp_dep_dbt pmpaym_sdep on pmpaym.t_StartDepartment=pmpaym_sd
-ep.t_Code) left outer join  ddp_dep_dbt pmpaym_edep on pmpaym.t_EndDepartment=pmpaym_edep.
-t_Code) on oproper.t_DocumentID=LPAD(glob_func.TO_CHAR(pmpaym.t_PaymentID), ?, ?)) inner j
-oin (  dpmprop_dbt debet left outer join (  dcorschem_dbt pmcor left outer join  ddp_dep_d
-bt pmcor_cdep on pmcor.t_Department=pmcor_cdep.t_Code and pmcor.t_FI_Kind=?) on debet.t_Co
-rschem=pmcor.t_Number and debet.t_PayFIID=pmcor.t_FIID) on pmpaym.t_PaymentID=debet.t_Paym
-entID and debet.t_debetcredit=?) where pmpaym.t_PaymentID=? AND ((true AND true AND true A
-ND true AND true AND true AND oproper.t_DocKind=(CASE pmpaym.t_PrimDocKind WHEN ? THEN pmp
-aym.t_DocKind ELSE pmpaym.t_PrimDocKind END)  AND true AND true AND true AND true AND true
- AND true) AND ((((((((((((pmpaym_dp_dep.t_Name=? OR pmpaym_sdep.t_Name=? OR pmpaym_edep.t
-_Name=?))) OR (pmpaym_dp_dep.t_Name=?))) OR (pmpaym_dp_dep.t_Name=?))) OR (EXISTS(select  
- 1 from  doprstep_dbt pmost where pmost.t_ID_Operation=oproper.t_ID_Operation AND pmost.t_
-IsExecute=? AND (pmost.t_Symbol=?))))) OR ((pmpaym.t_Oper=? OR pmcor_cdep.t_Name=?))))));
-Result= 0
+[2023-Nov-29 09:39:18.199693] <NOTE>  NSQL: select /*+ opt_param('_optimizer_connect_by_cost_based', 'true')*/ NVL(wltpfld.t_TpFieldID, ?) "NVL", NVL(wltpfld.t_Type, ?) "NVL_1", NVL(wltpfld.t_Size, ?) "NVL_2", NVL(wltpfld.t_Name, ?) "NVL_3", NVL(wltpfld.t_LenEdit, ?) "NVL_4", NVL(wltpfld.t_NumLines, ?) "NVL_5", wlmesfld.t_BlockFlag T_BLOCKFLAG, wlmesfld.t_BlockName T_BLOCKNAME, wlmesfld.t_MandatoryFlag T_MANDATORYFLAG, wlmesfld.t_FieldID T_FIELDID, wlmesfld.t_Master T_MASTER, wlmesfld.t_TpFieldID T_TPFIELDID, wlmesfld.t_BlockNumQnt T_BLOCKNUMQNT, wlmesfld.t_BlockRadioFlag T_BLOCKRADIOFLAG from dwlmesfld_dbt wlmesfld, dwltpfld_dbt wltpfld where wltpfld.t_TpFieldID(+)=wlmesfld.t_TpFieldID start with wlmesfld.t_RlsFormID=? AND wlmesfld.t_Master=? connect by wlmesfld.t_RlsFormID=? AND wlmesfld.t_Master=prior wlmesfld.t_FieldID order siblings by wlmesfld.t_Master, wlmesfld.t_GroupIndex
+[2023-Nov-29 09:39:18.212685] <NOTE>  PgConverterDuration: 12808900 ns
+[2023-Nov-29 09:39:18.212685] <NOTE>  PHSQL: WITH RECURSIVE prior(wltpfld_T_TPFIELDID, wltpfld_T_TPID, wltpfld_T_NAME, wltpfld_T_DESCRIPTION, wltpfld_T_TYPE, wltpfld_T_SIZE, wltpfld_T_LENEDIT, wltpfld_T_NUMPOINT, wltpfld_T_NUMLINES, wltpfld_T_STATE, wltpfld_T_BANKDATE, wltpfld_T_SYSDATE, wltpfld_T_SYSTIME, wltpfld_T_USERID, wlmesfld_T_FIELDID, wlmesfld_T_TPFIELDID, wlmesfld_T_RLSFORMID, wlmesfld_T_MASTER, wlmesfld_T_GROUPINDEX, wlmesfld_T_MANDATORYFLAG, wlmesfld_T_BLOCKFLAG, wlmesfld_T_BLOCKNUMQNT, wlmesfld_T_DIRECTORYID, wlmesfld_T_BLOCKNAME, wlmesfld_T_DESCRIPTION, wlmesfld_T_STATE, wlmesfld_T_BANKDATE, wlmesfld_T_SYSDATE, wlmesfld_T_SYSTIME, wlmesfld_T_USERID, wlmesfld_T_BLOCKRADIOFLAG, wlmesfld_T_BLOCKONEDIT) AS
+(SELECT ARRAY[glob_func.to_recursive_type( wlmesfld.t_Master)] as siblings_hierarchy_var_0, ARRAY[glob_func.to_recursive_type( wlmesfld.t_GroupIndex)] as siblings_hierarchy_var_1, wltpfld.*, wlmesfld.*
+from (  dwltpfld_dbt wltpfld right outer join  dwlmesfld_dbt wlmesfld on wltpfld.t_TpFieldID=wlmesfld.t_TpFieldID)
+WHERE wlmesfld.t_RlsFormID=??6 AND wlmesfld.t_Master=??7 
+UNION ALL
+select   prior.siblings_hierarchy_var_0 || glob_func.to_recursive_type( wlmesfld.t_Master), prior.siblings_hierarchy_var_1 || glob_func.to_recursive_type( wlmesfld.t_GroupIndex),   wltpfld.*,  wlmesfld.* from ( (  dwltpfld_dbt wltpfld right outer join  dwlmesfld_dbt wlmesfld on wltpfld.t_TpFieldID=wlmesfld.t_TpFieldID) inner join  prior on wlmesfld.t_Master=prior.wlmesfld_t_FieldID) WHERE wlmesfld.t_RlsFormID=??8 AND true 
+)select   COALESCE(wltpfld_t_TpFieldID, ??0) as "NVL",  COALESCE(wltpfld_t_Type, ??1) as "NVL_1",  COALESCE(wltpfld_t_Size, ??2) as "NVL_2",  COALESCE(wltpfld_t_Name, ??3) as "NVL_3",  COALESCE(wltpfld_t_LenEdit, ??4) as "NVL_4",  COALESCE(wltpfld_t_NumLines, ??5) as "NVL_5",  wlmesfld_t_BlockFlag as wlmesfld_T_BLOCKFLAG,  wlmesfld_t_BlockName as wlmesfld_T_BLOCKNAME,  wlmesfld_t_MandatoryFlag as wlmesfld_T_MANDATORYFLAG,  wlmesfld_t_FieldID as wlmesfld_T_FIELDID,  wlmesfld_t_Master as wlmesfld_T_MASTER,  wlmesfld_t_TpFieldID as wlmesfld_T_TPFIELDID,  wlmesfld_t_BlockNumQnt as wlmesfld_T_BLOCKNUMQNT,  wlmesfld_t_BlockRadioFlag as wlmesfld_T_BLOCKRADIOFLAG from prior  where true order by siblings_hierarchy_var_0  , siblings_hierarchy_var_1   ;
+[2023-Nov-29 09:39:18.216683] <NOTE>  bind map: 1 -> 7; 2 -> 8; 3 -> 9; 4 -> 1; 5 -> 2; 6 -> 3; 7 -> 4; 8 -> 5; 9 -> 6; 
+[2023-Nov-29 09:39:18.216683] <NOTE>  SQL: WITH RECURSIVE prior(wltpfld_T_TPFIELDID, wltpfld_T_TPID, wltpfld_T_NAME, wltpfld_T_DESCRIPTION, wltpfld_T_TYPE, wltpfld_T_SIZE, wltpfld_T_LENEDIT, wltpfld_T_NUMPOINT, wltpfld_T_NUMLINES, wltpfld_T_STATE, wltpfld_T_BANKDATE, wltpfld_T_SYSDATE, wltpfld_T_SYSTIME, wltpfld_T_USERID, wlmesfld_T_FIELDID, wlmesfld_T_TPFIELDID, wlmesfld_T_RLSFORMID, wlmesfld_T_MASTER, wlmesfld_T_GROUPINDEX, wlmesfld_T_MANDATORYFLAG, wlmesfld_T_BLOCKFLAG, wlmesfld_T_BLOCKNUMQNT, wlmesfld_T_DIRECTORYID, wlmesfld_T_BLOCKNAME, wlmesfld_T_DESCRIPTION, wlmesfld_T_STATE, wlmesfld_T_BANKDATE, wlmesfld_T_SYSDATE, wlmesfld_T_SYSTIME, wlmesfld_T_USERID, wlmesfld_T_BLOCKRADIOFLAG, wlmesfld_T_BLOCKONEDIT) AS
+(SELECT ARRAY[glob_func.to_recursive_type( wlmesfld.t_Master)] as siblings_hierarchy_var_0, ARRAY[glob_func.to_recursive_type( wlmesfld.t_GroupIndex)] as siblings_hierarchy_var_1, wltpfld.*, wlmesfld.*
+from (  dwltpfld_dbt wltpfld right outer join  dwlmesfld_dbt wlmesfld on wltpfld.t_TpFieldID=wlmesfld.t_TpFieldID)
+WHERE wlmesfld.t_RlsFormID=? AND wlmesfld.t_Master=? 
+UNION ALL
+select   prior.siblings_hierarchy_var_0 || glob_func.to_recursive_type( wlmesfld.t_Master), prior.siblings_hierarchy_var_1 || glob_func.to_recursive_type( wlmesfld.t_GroupIndex),   wltpfld.*,  wlmesfld.* from ( (  dwltpfld_dbt wltpfld right outer join  dwlmesfld_dbt wlmesfld on wltpfld.t_TpFieldID=wlmesfld.t_TpFieldID) inner join  prior on wlmesfld.t_Master=prior.wlmesfld_t_FieldID) WHERE wlmesfld.t_RlsFormID=? AND true 
+)select   COALESCE(wltpfld_t_TpFieldID, ?) as "NVL",  COALESCE(wltpfld_t_Type, ?) as "NVL_1",  COALESCE(wltpfld_t_Size, ?) as "NVL_2",  COALESCE(wltpfld_t_Name, ?) as "NVL_3",  COALESCE(wltpfld_t_LenEdit, ?) as "NVL_4",  COALESCE(wltpfld_t_NumLines, ?) as "NVL_5",  wlmesfld_t_BlockFlag as wlmesfld_T_BLOCKFLAG,  wlmesfld_t_BlockName as wlmesfld_T_BLOCKNAME,  wlmesfld_t_MandatoryFlag as wlmesfld_T_MANDATORYFLAG,  wlmesfld_t_FieldID as wlmesfld_T_FIELDID,  wlmesfld_t_Master as wlmesfld_T_MASTER,  wlmesfld_t_TpFieldID as wlmesfld_T_TPFIELDID,  wlmesfld_t_BlockNumQnt as wlmesfld_T_BLOCKNUMQNT,  wlmesfld_t_BlockRadioFlag as wlmesfld_T_BLOCKRADIOFLAG from prior  where true order by siblings_hierarchy_var_0  , siblings_hierarchy_var_1   ;
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 0 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 139  -  81729992
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 1 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  81729992
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 2 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 139  -  81729992
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 3 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  81729992
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 4 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  106908296
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 5 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  74
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 6 buff_size: 4 LenOrInd: 1 Ind: 0 size: 1 type: RSDPT_LPSTR = SQL_WVARCHAR - ""
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 7 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  81729992
+[2023-Nov-29 09:39:18.216683] <NOTE>  to RECORD: 8 buff_size: 4 LenOrInd: 4 Ind: 0 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  82
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 0 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 139  -  139
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 1 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 2 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 139  -  139
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 3 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 4 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.216683] <NOTE>  to ODBC RECORD: 5 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.217682] <NOTE>  to ODBC RECORD: 6 buff_size: 4 LenOrInd: 1 Ind: -3 size: 1 type: RSDPT_LPSTR = SQL_WVARCHAR - ""
+[2023-Nov-29 09:39:18.217682] <NOTE>  to ODBC RECORD: 7 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.217682] <NOTE>  to ODBC RECORD: 8 buff_size: 4 LenOrInd: 4 Ind: 4 size: 4 type: RSDPT_LONG = SQL_INTEGER - 0  -  0
+[2023-Nov-29 09:39:18.219681] <ERROR>  Error: 
+ERROR: operator does not exist: integer = timestamp without time zone;
+Error while executing the query
